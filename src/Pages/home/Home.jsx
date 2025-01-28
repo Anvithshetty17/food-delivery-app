@@ -4,7 +4,7 @@ import Header from '../../Components/Header/Header'
 import ExploreMenu from '../../Components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../Components/FoodDisplay/FoodDisplay'
 import AppDownload from '../../Components/AppDownload/AppDownload'
-const home = () => {
+const Home = () => {
     const [category,setcategory]=useState("All")
 
   return (
@@ -17,4 +17,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
