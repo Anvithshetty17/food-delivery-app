@@ -61,3 +61,9 @@
         width: max(6vw, 120px);
     }
 }
+
+@media (max-width: 400px) {
+    .App-Download-platform {
+        flex-direction: row;
+    }
+}
