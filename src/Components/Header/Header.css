@@ -41,7 +41,7 @@
     border-radius: 50px;
 }
 
-/* Media queries for responsiveness */
+/* For screens smaller than 1200px */
 @media (max-width: 1200px) {
     .header-contents {
         max-width: 60%;
@@ -58,6 +58,24 @@
     }
 }
 
+/* FIX: For screens between 900px and 1050px */
+@media (min-width: 900px) and (max-width: 1050px) {
+    .header-contents {
+        max-width: 65%;
+    }
+    .header-contents h2 {
+        font-size: max(4vw, 20px);
+    }
+    .header-contents p {
+        font-size: 1vw;
+    }
+    .header-contents button {
+        padding: 1.8vw 3.5vw;
+        font-size: max(0.9vw, 12px);
+    }
+}
+
+/* For screens smaller than 900px */
 @media (max-width: 900px) {
     .header-contents {
         max-width: 70%;
@@ -73,22 +91,8 @@
         font-size: max(0.8vw, 11px);
     }
 }
-@media (max-width: 1050px) {
-    .header-contents {
-        max-width: 65%;
-    }
-    .header-contents h2 {
-        font-size: max(3.8vw, 19px);
-    }
-    .header-contents p {
-        font-size: 0.85vw;
-    }
-    .header-contents button {
-        padding: 1.8vw 3.5vw;
-        font-size: max(0.85vw, 11.5px);
-    }
-}
 
+/* For screens smaller than 600px */
 @media (max-width: 600px) {
     .header-contents {
         max-width: 80%;
