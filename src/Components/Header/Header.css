@@ -37,24 +37,55 @@
     font-weight: 500;
     padding: 1vw 2.3vw;
     background-color: white;
-    font-weight: max(1vw, 13px);
+    font-size: max(1vw, 13px);
     border-radius: 50px;
 }
 
-@media (max-width: 1050px) and (min-width: 901px) {
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
     .header-contents {
-        max-width: 45%;
+        max-width: 60%;
+    }
+    .header-contents h2 {
+        font-size: max(4vw, 20px);
+    }
+    .header-contents p {
+        font-size: 0.9vw;
+    }
+    .header-contents button {
+        padding: 1.5vw 3vw;
+        font-size: max(0.9vw, 12px);
     }
 }
 
 @media (max-width: 900px) {
     .header-contents {
-        max-width: 65%;
+        max-width: 70%;
+    }
+    .header-contents h2 {
+        font-size: max(3.5vw, 18px);
     }
     .header-contents p {
-        display: none;
+        font-size: 0.8vw;
     }
     .header-contents button {
         padding: 2vw 4vw;
+        font-size: max(0.8vw, 11px);
+    }
+}
+
+@media (max-width: 600px) {
+    .header-contents {
+        max-width: 80%;
+    }
+    .header-contents h2 {
+        font-size: max(3vw, 16px);
+    }
+    .header-contents p {
+        font-size: 0.7vw;
+    }
+    .header-contents button {
+        padding: 2.5vw 5vw;
+        font-size: max(0.7vw, 10px);
     }
 }
