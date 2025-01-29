@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200..1000&family=Outfit:wght@100..900&display=swap');
+
 .NavBar {
-    padding: 20px 0px;
+    padding: 15px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +11,7 @@
     width: 150px;
 }
 
+/* Navigation Menu */
 .navbar-menu {
     display: flex;
     list-style: none;
@@ -17,6 +20,7 @@
     font-size: 18px;
 }
 
+/* Right Section */
 .navbar-right {
     display: flex;
     align-items: center;
@@ -47,6 +51,7 @@
     cursor: pointer;
 }
 
+/* Search Icon Badge */
 .navbar-search-icon {
     position: relative;
 }
@@ -61,7 +66,11 @@
     right: -8px;
 }
 
-/* Media query for screen sizes between 1050px and 900px */
+/* ============================= */
+/* Media Queries for Responsiveness */
+/* ============================= */
+
+/* 🔹 1050px - 901px (Medium Screens) */
 @media (max-width: 1050px) and (min-width: 901px) {
     .NavBar .logo {
         width: 130px;
@@ -82,25 +91,7 @@
     }
 }
 
-@media (max-width: 1050px) {
-    .NavBar .logo {
-        width: 140px;
-    }
-    .navbar-menu {
-        gap: 20px;
-        font-size: 70px;
-    }
-    .navbar-right {
-        gap: 30px;
-    }
-    .navbar-right img {
-        width: 22px;
-    }
-    .navbar-right button {
-        padding: 8px 25px;
-    }
-}
-
+/* 🔹 Below 900px (Tablet & Small Screens) */
 @media (max-width: 900px) {
     .NavBar .logo {
         width: 120px;
@@ -121,8 +112,35 @@
     }
 }
 
+/* 🔹 Below 750px (Mobile Screens) */
 @media (max-width: 750px) {
     .navbar-menu {
         display: none;
+    }
+    .NavBar {
+        padding: 10px 0px;
+    }
+    .NavBar .logo {
+        width: 110px;
+    }
+    .navbar-right {
+        gap: 15px;
+    }
+}
+
+/* 🔹 Below 500px (Small Mobile Screens) */
+@media (max-width: 500px) {
+    .NavBar {
+        padding: 8px 0px;
+    }
+    .NavBar .logo {
+        width: 100px;
+    }
+    .navbar-right {
+        gap: 10px;
+    }
+    .navbar-right button {
+        padding: 6px 15px;
+        font-size: 14px;
     }
 }
