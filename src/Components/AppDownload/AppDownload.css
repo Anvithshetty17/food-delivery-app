@@ -64,7 +64,7 @@
 
 @media (max-width: 400px) {
     .App-Download-platform {
-        margin:auto:
+        flex-direction: column;
 justify-content: center;text-align: center;
 
     }
