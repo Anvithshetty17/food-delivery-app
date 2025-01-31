@@ -52,7 +52,7 @@
 @media (max-width: 600px) {
     .App-Download {
         font-size: max(5vw, 14px);
-margin-left:37%;
+
     }
     .App-Download-platform {
         flex-direction: column;
@@ -60,6 +60,7 @@ margin-left:37%;
     }
     .App-Download-platform img {
         width: max(6vw, 120px);
+margin-left:37%;
     }
 }
 
