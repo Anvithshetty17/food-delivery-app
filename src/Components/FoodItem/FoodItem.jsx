@@ -34,7 +34,7 @@ const FoodItem = ({id,name,price,description,image}) => {
                 {description}
             </p>
             <p className="food-item-price">
-                ${price}
+                ₹{price}
             </p>
         </div>
 
