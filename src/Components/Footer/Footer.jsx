@@ -31,14 +31,14 @@ const Footer = () => {
                 <h2>GET IN TOUCH</h2>
                 <ul>
                     <li>+1-212-456-7890</li>
-                    <li>official@tomato.com</li>
+                    <li>official@DeliGo.com</li>
                 </ul>
             </div>
         </div>
 
         <hr />
         <p className="footer-copyright">
-            Copyright 2024 &copy; Tomato.com - All rights reserved.
+            Copyright 2024 &copy; DeliGo.com - All rights reserved.
         </p>
     </div>
   )
