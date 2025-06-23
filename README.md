@@ -58,8 +58,12 @@ Then, open your browser and go to `http://localhost:5173/`.
 - `npm run build` – Builds the app for production
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/c046dd2c-5a6e-4ffd-9960-5ef8f99cb71c)
+![image](https://github.com/user-attachments/assets/44bde0e5-8fc5-45d9-8f59-e43f69e4c584)
+![image](https://github.com/user-attachments/assets/a9f1908b-85f4-41f0-80a4-27cb868e0a82)
+![image](https://github.com/user-attachments/assets/951a0033-abdd-4e2c-9b09-019957bb745f)
 
-(Add screenshots here if available)
+
 
 ## 📌 TODO
 
